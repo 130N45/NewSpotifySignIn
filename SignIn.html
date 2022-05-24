@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script language="text/javascript" src="anmeldung.js"></script>
+    <title>SignIn</title>
+</head>
+
+<body class="background">
+    <div class="container backgroundimg clip">
+        <div class="spalte">
+            <div class="ad">
+                <h2>Spotify</h2>
+                <p>Music for every moment.</p>
+                <p>Music for everyone.</p>
+                <input class="loginfb" onclick="window.location.href = 'https://de-de.facebook.com'" type="button" name="loginfb" value="SIGN IN WITH FACEBOOK"></input>
+            </div>
+        </div>
+    </div>
+    <div class="container-r">
+        <div class="spalte-r">
+            <div class="signin">
+                <h2 class="signin-title">Sign In</h2>
+                <form action="select.php" method="post">
+                    <div class="login" id="login">
+                        <input class="username" type="text" name="username" placeholder="Username" required></input><br>
+                        <input class="password" type="password" name="password" placeholder="Password" required></input><br>
+                    </div>
+                    <div class="secret" id="secret">
+                        <input class="signinbutton" onclick="window.location.href = 'https://www.spotify.com/de/'" type="button" name="signin" value="Sign in"></input><br><br>
+                        <p class="noacc">You don't have an account yet?
+                            <a href="Sign up here.html">Sign up here.</a>, it won't take more than a minute
+                        </p>
+                </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
